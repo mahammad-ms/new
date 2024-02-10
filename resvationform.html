@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>reservation form</h1>
+
+    <form autocomplete="off">
+
+        <label for="name">name*</label>
+        <input type="text" name="name" id="name" value="name" disabled><br>
+
+        <label for="Email">Email*</label>
+        <input type="Email" name = "Email" id="Email" value="Email" disabled><br>
+
+        <label for="roomType">room type*</label>
+        <select name="roomType" id="roomType">
+            <option value="comroom"> </option>
+            <option value="bedroom">bedroom</option>
+            <option value="bathroom">bathroom</option>
+        </select><br> 
+        
+        <label for="arrival date">arrival date*</label>
+        <input type="text" name="arrival date" id="arrival date"><br>
+
+        <label for="departure date">departure date*</label>
+        <input type="text" name="departure date" id="departure date"><br>
+        
+        <label for="numberGuests">number of Guests</label>
+        <input type="number" id="numberGuests" name="numberGuests"><br>
+
+        <label for="Free Pickup">Free Pickup</label>
+        <input type="radio" name="Free Pickup" id="yes" value="yes">
+        <input type="radio" name="Free Pickup" id="no" value="no"><br>
+        
+        <label for="flightNumber">flight Number</label>
+        <input type="text" id="flightNumber" name="flightNumber"><br>
+
+        <label for="message">special requests</label>
+        <textarea name="message" rows="10" cols="20">type here</textarea>
+        <input type="submit">
+
+    </form>
+  
+
+
+
+
+</body>
+</html>
